@@ -1,0 +1,38 @@
+1.Azure Overview:
+=================
+
+1.What is Microsoft Azure?
+---------------------------
+- Azure is a cloud computing platform and an online portal that allows you to access and manage cloud services and resources provided by Microsoft.
+- To get access to these resources and services, all you need to have is an active internet connection and the ability to connect to the Azure portal.
+
+Things that you should know about Azure:
+..........................................
+- It was launched on February 1, 2010, significantly later than its main competitor, AWS.
+- It’s free to start and follows a pay-per-use model, which means you pay only for the services you opt for.
+- Interestingly, 80 percent of the Fortune 500 companies use Azure services for their cloud computing needs.
+- Another benefit of Azure is the number of data centers it has around the world.There are 42 Azure data centers spread around the globe, 
+  which is the highest number of data centers for any cloud platform. 
+  
+  
+2.What are the Various Azure Services and How does Azure Work?
+---------------------------------------------------------------
+- Azure provides more than 200 services, are divided into 18 categories. 
+- These categories include computing, networking, storage, IoT, migration, mobile, analytics, containers, artificial intelligence, and 
+  other machine learning, integration, management tools, developer tools, security, databases, DevOps, media identity, and web services. 
+  
+Let’s take a look at some of the major Azure services by category:
+ 
+Compute Services :
+Networking Services:
+Storage Services:
+
+3. Why Use of Azure:
+--------------------
+Application development: You can create any web application in Azure.
+Testing: After developing an application successfully on the platform, you can test it.
+Application hosting: Once the testing is done, Azure can help you host the application.
+Create virtual machines: You can create virtual machines in any configuration you want with the help of Azure. 
+Integrate and sync features: Azure lets you integrate and sync virtual devices and directories. 
+Collect and store metrics: Azure lets you collect and store metrics, which can help you find what works. 
+Virtual hard drives: These are extensions of the virtual machines; they provide a huge amount of data storage.
