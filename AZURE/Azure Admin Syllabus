@@ -1,0 +1,377 @@
+Implementing Solutions on Microsoft Azure Cloud Platform (AZ-900/AZ-104/AZ-303)
+=================================================================================
+Azure Course Curriculum
+=========================
+Introduction to Azure
+●       Cloud technology overview
+
+●       Overview of Azure
+
+●       Managing Azure with the Azure portal
+
+●       Managing Azure with Windows PowerShell
+
+●       Overview of Azure Resource Manager
+
+●       Azure management services
+
+ 
+
+Implementing and managing Azure networking
+●       Overview of Azure networking
+
+●       Implementing and managing Azure virtual networks
+
+●       Configuring Azure virtual networks
+
+●       Configuring Azure virtual network connectivity
+
+●       Configuring the Subnets
+
+●       Configuring Virtual Network Region Peering
+
+●       Configuring Virtual Network Global Peering
+
+●       Understanding Azure to On-Prem Connectivity
+
+●       Deploying Azure Virtual Network Gateway.
+
+●       Understanding User Defined Routes(UDR).
+
+●       Configuring Azure Virtual Network Gateway with AWS over IPSec VPN.
+
+●       Implementing Azure Service End Points.
+
+ 
+
+Understanding and Configuring  Network Security Groups(NSG)
+●       Understanding Azure Network Security Groups(NSG)
+
+●       Creating and Updating Inbound & Outbound Security Rules.
+
+●       Understanding NSG Rule Hierarchy.
+
+●       Testing Network Security Groups and learning rule priority.
+
+●       Creating NSG Rules with Service tags.
+
+●       Understanding Application Security Groups (ASG).
+
+●       Creating NSG with Application Security Groups.
+
+Understanding and Configuring  Azure Firewall
+●       Overview of Azure Firewall as a Service.
+
+●       Creating UDR and AzureFirewallSubnet.
+
+●       Deploy Azure Firewall.
+
+●       Configure routing on UDR and assigning to subnets.
+
+●       Create Network Rule Collection and check the traffic.
+
+●       Create Application Rule Collection and block traffic to websites.
+
+●       Understand SNAT and DNAT in Azure Firewall.
+
+●       Creating DNAT for Azure machine using Azure Firewall.
+
+ 
+
+Implementing & Configuring Azure Virtual  Machines
+●       Overview Azure virtual machines
+
+●       Deploy virtual machines in Azure portal
+
+●       Deploy virtual machines using Azure CLI
+
+●       Managing Azure Virtual machine storage
+
+●       Understanding Availability sets, Fault Domain & Update Domain.
+
+●       Creating & placing virtual machines in Availability Sets.
+
+●        
+
+Designing & Implementing  Azure Load Balancing
+●       Overview on Load Balancing
+
+●       Type of Load Balancers in Azure
+
+●       Basic Vs Standard Load Balancer
+
+●       Deploying Basic Load Balancer with Availability Sets.
+
+●       Creating Backend Pools, Health probes and Load Balance rules.
+
+●       Checking the Load Balancing scenarios.
+
+●       Configuring NAT using Basic Load Balancer.
+
+
+ Implement and configure Azure DNS & Azure Standard Load Balancer
+●       Understanding Azure DNS.
+
+●       Buying a domain name for Godaddy.com
+
+●       Creating Azure DNS Zone and configuring it with Godaddy.
+
+●       Creating 3 Availability Sets and placing a single virtual machine in each AV-Set.
+
+●       Create Azure Standard Load Balancer and create a backend pool and assign all the 3 AVSets.
+
+●       Check the Load Balancing between the servers in different AV-Sets.
+
+●       Create Host Records for Server and check the name resolution.
+
+●       Create the CNAME record for the Load Balancer and check the website resolution.
+
+Configuring Azure Application gateway
+●       Understanding Azure Application Gateway architecture.
+
+●       Understanding Path Based Routing in AGW.
+
+●       Creating multiple VMs and configuring application gateway.
+
+●       Configuring the SSL Off-loading on Application gateway.
+
+●       Check pathing based routing using AGW.
+
+ 
+
+Configuring Auto Scaling with Virtual Machine Scale Sets(VMSS)
+●       Understanding Azure VMSS
+
+●       Creating a Azure VM Image for VMSS
+
+●       Deploy VMSS with the custom image.
+
+●       Performing stress testing on the VMSS.
+
+●       Check AutoScaling of VMs under stress testing
+
+ 
+
+ 
+
+ 
+
+Planning and implementing Azure Storage
+●       Azure Storage account overview
+
+●       Understand Blob Storage
+
+●       Understand File Shares
+
+●       Configuring Azure FileSync
+
+●       Data migration using Azure storage explorer
+
+●       Manage Azure Storage permissions
+
+●       Azure Static Website deployment
+
+●       Custom domains
+
+ 
+
+Configure and Manage Azure Backup and Disaster Recovery Services
+●       Backup and disaster recovery overview
+
+●       Backup VMware Servers to Azure
+
+●       Backup Azure VM & Azure SQL instances
+
+●       Azure replication and failover groups
+
+●       Azure disaster recovery vault configuration
+
+●       How to implement full BCDR strategy
+
+ 
+
+Planning and implementing Azure SQL Database
+●       Azure SQL database(PaaS) vs SQL database (IaaS)
+
+●       Structured vs Unstructured data
+
+●       DTUs -  Azure SQL
+
+●       RUs – Azure Cosmos DB
+
+●       Azure SQL Global Replication and Failover Groups
+
+●       Azure MySQL Deployment
+
+ 
+
+Implementing Azure App services
+●       Azure Web Apps overview ( PaaS)
+
+●       Deploying and Managing Web Apps
+
+●       Azure App Service plan
+
+●       Azure Deployment slots
+
+●       App Service Security
+
+●       Serverless computing concepts
+
+●       Azure Web Apps for scale and resilience
+
+ 
+
+Implementing Azure Active Directory
+●       Azure Domain services.
+
+●       Azure Active Directory overview.
+
+●       Deploy and configure Active directory.
+
+●       Create and manage users and groups.
+
+●       Extending On-premise Active directory to Azure.
+
+●       Configure Azure AD connect.
+
+●       Role based access control (RBAC) overview.
+
+●       Configure domain users and groups to access Azure portal.
+
+Implementing Azure-based management and automation
+●       Implementing Azure Automation.
+
+●       Implementing Automation runbooks.
+
+●       Managing Azure Automation.
+
+●       Creating and Managing Azure DSC.
+
+ 
+
+Designing and developing apps for Containers
+●       Virtual Machine vs Containers.
+
+●       Install and configure Docker Engine.
+
+●       Deploy and manage Containers.
+
+●       Deploying container images using Azure Container Instances(ACI).
+
+●       Introduction to Azure Kubernetes Services(AKS).
+
+●       Creating Azure AKS Cluster.
+
+●       Deploying application on AKS.
+
+ 
+
+Configure Diagnostics, Monitoring, and Analytics
+●       Azure Monitoring and alerts configuration.
+
+●       Log analytics.
+
+●       Insights  virtual machines and network.
+
+●       Insights applications and containers.
+
+ 
+
+Azure Migrate projects  and customer billing optimization
+●       Azure Migration projects.
+
+●       Recovery services vaults.
+
+●       Azure Database migration services.
+
+●       Azure cost calculator.
+
+●       Azure price optimization.
+
+ 
+
+Azure NAT Gateway CDN WAF
+●       Deploy Azure NAT Gateway for Private Subnets.
+
+●       Deploying CDN for Web Applications.
+
+●       Deploy Web Application Firewall for Securing Web Applications.
+
+ 
+
+ 
+
+ 
+
+Introduction to Infrastructure as a Code(IaaC)
+ 
+
+●       Understanding JSON files.
+
+●       Introduction  Azure Resource Manager Templates(ARM).
+
+●       Deploying ARM Templates from Azure Powershell & Azure Portal.
+
+●       Using ARM Functions and Dry Run with Powershell 7.0
+
+●       Working with ARM Template Modes.
+
+●       Deploy basic Azure Infrastructure with Terraform
+
+●       Azure Image management with Packer.
+
+ 
+
+ 
+
+Understanding Azure DevOps
+●       Learning Azure DevOps application/tool.
+
+●       Creating KANBAN boards.
+
+●       Creating Repos and branches
+
+●       Installing 3rd Party Plugins
+
+●       Building software packers with Azure DevOps Build Pipelines.
+
+●       Deploying infrastructure using Release Pipelines.
+
+●       Azure integration with Service Pipelines.
+
+●       Integrating with 3rd Party Clouds and Applications using Plugins.
+
+●       Developing YAML Pipelines with Stages.
+
+●       Working with Secrets & Securefiles
+
+●       Complete CI/CD Pipeline with Azure DevOps.
+
+ 
+
+Azure Functions & Logic Apps
+●       Understanding Azure functions.
+
+●       Creating and executing Azure Functions.
+
+●       Creating Logic Apps and executing.
+
+●       Introduction to Azure API Management.
+
+ 
+
+ 
+
+Azure Management & Governance
+●       Understanding Azure Policies for Compliance & Governance.
+
+●       Understanding Azure Management Groups.
+
+●       Azure Landing Zone & Cloud Adoption Framework.
+
+●       Extending Azure Governance using Azure Arc.
+
+ 
+
+Azure Certification & Azure Project.
