@@ -1,3 +1,81 @@
 Azure Networking:
 =================
+1.IP Address in Azure:
+-----------------------
+- The two different types of IP Address used and allocated in Azure are Public IP and Private IP.
 
+Private – The Private IP address allows communication of resources within the azure resource group. 
+          In other words, resources can not access a private IP outside the network. The resources 
+          that can be connected using a private address are VM Network Interface, ILB (Internal Load Balancer) and Application Gateway.
+          
+Public – The Public IP address allows Azure Resources to communicate with public-facing Azure services via the Internet. 
+         In other words, resources can access public IP outside the network. Some resources that can be connected using 
+         public address are VM Network Interface, Public Facing ILB, Application Gateway, VPN Gateway and Azure Firewall.
+
+2.IP Allocation:
+-----------------
+Dynamic IP – The default allocation method by which Azure can automatically assign the available and unreserved IP address from the subnet’s address range. 
+             Also, the Dynamic IP is not fixed and changes with time.
+             
+Static IP – This is the custom allocation method to assign the available and unreserved IP address from the subnet’s address range. 
+            The Static IP is fixed and does not vary with time.
+
+3.Azure Virtual Networking:
+----------------------------
+- Azure Network is the interlinking and communication of all the Azure Resources in an organization.
+- Virtual Networking is the communication between devices, servers, virtual machines over the internet.
+- Azure Virtual Network (VNet) is a private network with interconnected Azure Resources like Azure Virtual Machines, Infrastructure and Network.
+- It enables communication between various Azure Resources via the Internet. In a Virtual Network, a continuous block of IP Address is used to 
+  create multiple subnet networks.
+
+4.Azure Subnet:
+---------------
+- As we know, the subnet is a part of a network that covers a range of IP Address. 
+  In Azure, VNet can be divided into smaller subnets for organizations. 
+  When a VNet is created in Azure, the subnet range and topology needs to be specified. 
+  In Subnet, the IP Address range will be a subpart from a big block of IP Address used 
+  in Virtual Network (VNet). The Virtual Machines and resources in a network will be assigned 
+  the IP Address from these subnets.
+  
+ 
+ 5.Azure Network Interface:
+ ----------------------------
+ - In Azure, NIC is virtual ethernet cards that help communicate the Virtual Machines present in a network. 
+    When a Virtual Machine is created in Azure, the NIC with default settings is automatically created. 
+    Also, Network Interface settings in Azure can be customized using command tools like Azure CLI and PowerShell.
+    
+    
+ 6.Network Security:
+ ---------------------
+- Azure provides various protection methods for securing a service in a network. I have listed down some of the basic 
+  network security tools with a short description.
+
+7.Network Security Group (NSG):
+--------------------------------
+- The Network Security Group in Azure acts like a firewall at the network level. 
+- It filters the traffic passing through Azure Resources in a virtual network. 
+- NSG is a group of security rules that defines the priority, source or destination, 
+-  protocol, direction, port range and action. Using these rules, NSG allows or deny inbound and outbound traffic. 
+- The rules for entering traffic inside a resource is also called ‘Ingress‘, and the rules for exiting the traffic or 
+  going out of the resource is called ‘Egress‘. When all the rules are created, the NSG can be used in a Virtual Machine 
+  that will interact with a network.
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+  
+  
+  
+  
+  
