@@ -1,2 +1,26 @@
 Azure Resource Manager:
 =======================
+1.Overview:
+------------
+- Azure Resource Manager is the deployment and management service for Azure. It provides a management layer that enables you to create,
+  update, and delete resources in your Azure account. You use management features, like access control, locks, and tags, to secure and 
+  organize your resources after deployment.
+  
+2.Consistent management layer:
+-------------------------------
+- When a user sends a request from any of the Azure tools, APIs, or SDKs, Resource Manager receives the request. 
+  It authenticates and authorizes the request. Resource Manager sends the request to the Azure service, which takes the requested action. 
+  Because all requests are handled through the same API, you see consistent results and capabilities in all the different tools.
+  
+ Note: All capabilities that are available in the portal are also available through PowerShell, Azure CLI, REST APIs, and client SDKs.
+
+3.Terminology:
+---------------
+. resource - A manageable item that is available through Azure. Virtual machines, storage accounts, web apps, databases, and virtual networks 
+  are examples of resources. Resource groups, subscriptions, management groups, and tags are also examples of resources.
+  
+. resource group - A container that holds related resources for an Azure solution. The resource group includes those resources that you want to
+  manage as a group. You decide which resources belong in a resource group based on what makes the most sense for your organization.
+ 
+. resource provider - A service that supplies Azure resources. For example, a common resource provider is Microsoft.Compute, which supplies the 
+  virtual machine resource. Microsoft.Storage is another common resource provider.
