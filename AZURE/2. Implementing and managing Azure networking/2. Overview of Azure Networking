@@ -1,2 +1,57 @@
-1.Overview of Azure Networking:
+Overview of Azure Networking:
 ===============================
+
+1.IP ADDRESS:
+-------------
+- IANA is the Internet Assigned Numbers Authority that manages and assigns the IP address in the world.
+- IP Address identifies each device on a network uniquely.
+- There are currently two IP Adress that is IPv4 and IPv6. 
+  An IPv4 address contains a total of 32 binary bits divided into 4 equal octets (8-bit block), 
+  whereas IPv6 is written in hexadecimal notation, separated into 8 groups of 16 bits by the colons, thus (8 x 16 = 128) bits in total.
+
+IV4:
+----
+- We will focus on IPv4 as it is the most used. 
+  Each octet of an IP Address is separated by a decimal and ranges from 0 to 255. 
+  You will clearly understand the binary number, octets, and IP address formation in the below table.
+  
+There are two different IP address one is private, and the other is public.
+----------------------------------------------------------------------------
+1. Private IP is accessed only within a network like a simple school network with a LAN connection.
+2. Public IP is accessed globally via the Internet.
+
+
+2.What is IP Subnetting?
+-------------------------
+- Subnetting is the process of dividing a network into many smaller networks.
+- There are 5 classes of IP address and each with a unique purpose.
+- Only the first octet is used for dividing an IP Address into different classes
+
+Table of Classes:
+-----------------
+Class A      0.0.0.0      -  126.255.255.255
+Class B      128.0.0.0    -  191.255.255.255
+Class C      192.0.0.0    -  223.255.255.255
+Class D      224.0.0.0    -  239.255.255.255
+Class E      240.0.0.0    -  255.255.255.255
+
+- Class D is reserved for multitasking and broadcasting purpose, whereas Class E is reserved for research and development. 
+  So both these classes are reserved and can not be used. The below table shows the range of the first octet in an IP address with each class.
+
+Note: The IP address with the first octet as 127 (in decimal) is a loopback address to check the network and address of the machine itself.
+
+- An IP address can further be divided into small networks depending on the use and purpose. 
+  The above classes are not sufficient for real-life use. Only 5 classes can not hold all the hosts on the same network, 
+  and the loss of IP address will be huge. So, the CIDR method was introduced
+
+SubnetMasks or CIDR:
+--------------------
+
+
+
+
+
+
+
+
+
