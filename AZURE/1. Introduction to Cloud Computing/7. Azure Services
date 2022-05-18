@@ -1,0 +1,7 @@
+Azure Services:
+=================
+- Availability of services across Azure regions depends on a region's type. There are two types of regions in Azure: recommended and alternate.
+  Recommended: These regions provide the broadest range of service capabilities and currently support availability zones. 
+               Designated in the Azure portal as Recommended.
+  Alternate: These regions extend Azure's footprint within a data residency boundary where a recommended region currently exists. 
+  
